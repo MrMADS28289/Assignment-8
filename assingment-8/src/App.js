@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <div className='container'>
         <div className='products'>
           {

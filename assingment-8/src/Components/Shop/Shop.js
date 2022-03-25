@@ -7,7 +7,7 @@ const Shop = ({ product, selectedProduct }) => {
     return (
         <div className='product'>
             <img src={img} alt="" />
-            <div className='product-info'>
+            <div className='product-details'>
                 <h1>{name}</h1>
                 <p>Price: ${price}</p>
             </div>

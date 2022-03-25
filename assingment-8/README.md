@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Under Warld Tailer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Go to the live site [Go To Live site](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

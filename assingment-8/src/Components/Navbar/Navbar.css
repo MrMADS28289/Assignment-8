@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #f8d0d0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 0 100px;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .navbar h1 {
+    margin-left: 15px;
+    font-size: 40px;
+    color: rgb(129, 125, 125);
+    font-family: "Metamorphous", cursive;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    color: rgb(129, 125, 125);
+    text-decoration: none;
+    margin-left: 34px;
+}
+.header a:hover{
+    color: red;
+}
+  

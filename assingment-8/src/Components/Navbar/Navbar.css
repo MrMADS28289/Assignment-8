@@ -29,4 +29,9 @@
 .header a:hover{
     color: red;
 }
+@media screen and (max-width: 576px) {
+  .navbar h1{
+    font-size: 12px;
+  }
+}
   

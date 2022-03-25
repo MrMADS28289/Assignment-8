@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Jakie 13",
+        "img": "https://i.ibb.co/tz8NCJ9/images.jpg",
+        "price": "540"
+    },
+    {
+        "id": 2,
+        "name": "Python3",
+        "img": "https://i.ibb.co/Qmwt7Tq/images1.jpg",
+        "price": "540"
+    },
+    {
+        "id": 3,
+        "name": "Fitrone",
+        "img": "https://i.ibb.co/myjxfqc/images2.jpg",
+        "price": "540"
+    },
+    {
+        "id": 4,
+        "name": "Black-33",
+        "img": "https://i.ibb.co/nfPx6C1/images3.jpg",
+        "price": "540"
+    },
+    {
+        "id": 5,
+        "name": "White-69",
+        "img": "https://i.ibb.co/Z2KbxGt/images4.jpg",
+        "price": "540"
+    },
+    {
+        "id": 6,
+        "name": "Perfect-12",
+        "img": "https://i.ibb.co/kSkVDgH/images5.jpg",
+        "price": "540"
+    },
+    {
+        "id": 7,
+        "name": "Koria-3",
+        "img": "https://i.ibb.co/72PHyvz/images6.jpg",
+        "price": "540"
+    },
+    {
+        "id": 8,
+        "name": "Lighter",
+        "img": "https://i.ibb.co/sPMBxfm/images7.jpg",
+        "price": "540"
+    },
+    {
+        "id": 9,
+        "name": "Bance-BO",
+        "img": "https://i.ibb.co/5KtW61Q/images8.jpg",
+        "price": "540"
+    },
+    {
+        "id": 10,
+        "name": "BT2-3",
+        "img": "https://i.ibb.co/J20GR2D/images9.jpg",
+        "price": "540"
+    },
+    {
+        "id": 11,
+        "name": "F11",
+        "img": "https://i.ibb.co/b1v6BBR/images23.jpg",
+        "price": "540"
+    },
+    {
+        "id": 12,
+        "name": "Pori-33",
+        "img": "https://i.ibb.co/pXf5n4V/images34.jpg",
+        "price": "540"
+    },
+    {
+        "id": 13,
+        "name": "EgTh",
+        "img": "https://i.ibb.co/Xz7hzqK/images37.jpg",
+        "price": "540"
+    },
+    {
+        "id": 14,
+        "name": "IGT-44",
+        "img": "https://i.ibb.co/LCRRZpZ/images43.jpg",
+        "price": "540"
+    },
+    {
+        "id": 15,
+        "name": "Mama-73",
+        "img": "https://i.ibb.co/PsppTCy/images45.jpg",
+        "price": "540"
+    },
+    {
+        "id": 16,
+        "name": "Kaka-Tua-55",
+        "img": "https://i.ibb.co/f8dpDx2/images46.jpg",
+        "price": "540"
+    }
+]

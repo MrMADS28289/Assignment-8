@@ -1,6 +1,6 @@
 import './Shop.css';
 
-const Shop = ({ product }) => {
+const Shop = ({ product, selectedProduct }) => {
     // console.log(product)
     const { name, price, img } = product;
 
@@ -11,7 +11,7 @@ const Shop = ({ product }) => {
                 <h1>{name}</h1>
                 <p>Price: ${price}</p>
             </div>
-            <button>
+            <button onClick={() => selectedProduct(product)}>
                 <p>Add to cart</p>
             </button>
         </div>

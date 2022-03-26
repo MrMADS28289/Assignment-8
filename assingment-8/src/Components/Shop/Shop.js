@@ -1,8 +1,10 @@
 import './Shop.css';
 
-const Shop = ({ product, selectedProduct }) => {
+const Shop = ({ product, handleAddToCart }) => {
     // console.log(product)
     const { name, price, img } = product;
+
+
 
     return (
         <div className='product'>
@@ -11,7 +13,7 @@ const Shop = ({ product, selectedProduct }) => {
                 <h1>{name}</h1>
                 <p>Price: ${price}</p>
             </div>
-            <button onClick={() => selectedProduct(product)}>
+            <button onClick={() => handleAddToCart(product)}>
                 <p>Add to cart</p>
             </button>
         </div>

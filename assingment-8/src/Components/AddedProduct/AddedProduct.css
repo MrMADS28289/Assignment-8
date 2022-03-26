@@ -1,16 +1,11 @@
-.added-container{
-    background-color: #e6d5d5;
-    height: 100%;
-    padding: 20px;
-}
 .product-info{
     display: flex;
-    margin: 10px;
     padding-left: 10px;
+    margin: 10px;
     background-color: #f19191;
     align-items: center;
     border-radius: 25% 0 25% 0;
     box-shadow: 4px 10px 30px rgb(80, 78, 78);
-    position: sticky;
-    top: 170px;
+    /* position: sticky;
+    top: 170px; */
 }

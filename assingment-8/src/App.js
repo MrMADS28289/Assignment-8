@@ -15,10 +15,11 @@ function App() {
       .then(data => setProducts(data))
   }, []);
 
-  const selectedProduct = (product) => {
+  const handleAddToCart = (product) => {
     // console.log(product)
-    setAddedProduct(product);
-  }
+    const newCart = [...addedProduct, product];
+    setAddedProduct(newCart);
+  };
 
   // console.log(addedProduct)
 
@@ -28,11 +29,13 @@ function App() {
       <div className='container'>
         <div className='products'>
           {
-            products.map(product => <Shop key={product.id} product={product} selectedProduct={selectedProduct}></Shop>)
+            products.map(product => <Shop key={product.id} product={product} handleAddToCart={handleAddToCart}></Shop>)
           }
         </div>
         <div>
-          <AddedProduct product={addedProduct}></AddedProduct>
+          {
+            addedProduct.map((product) => <AddedProduct product={product}></AddedProduct>)
+          }
         </div>
       </div>
     </div>

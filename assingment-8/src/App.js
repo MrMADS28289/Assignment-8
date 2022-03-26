@@ -16,12 +16,31 @@ function App() {
   }, []);
 
   const handleAddToCart = (product) => {
-    // console.log(product)
     const newCart = [...addedProduct, product];
     setAddedProduct(newCart);
   };
 
-  // console.log(addedProduct)
+  const resetBtn = () => {
+    const newCart = [];
+    setAddedProduct(newCart);
+  }
+
+  const choosOneBtn = () => {
+
+    var objResults = {};
+    for (var i = 0; i < 10; i++) {
+      var randomElement = addedProduct[Math.floor(Math.random() * addedProduct.length)];
+      if (objResults[randomElement]) {
+        console.log('sdffff', objResults)
+      }
+      else {
+        console.log('bbbbbbbbbbbbb', objResults)
+      }
+    }
+    console.log(objResults)
+  }
+  choosOneBtn();
+
 
   return (
     <div className="App">
@@ -37,6 +56,8 @@ function App() {
           {
             addedProduct.map((product) => <AddedProduct product={product}></AddedProduct>)
           }
+          <button className='choos-one-btn'>Choos one</button>
+          <button onClick={resetBtn} className='reset-btn'>Reset</button>
         </div>
       </div>
     </div>
@@ -44,3 +65,4 @@ function App() {
 }
 
 export default App;
+

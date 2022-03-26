@@ -27,19 +27,12 @@ function App() {
 
   const choosOneBtn = () => {
 
-    var objResults = {};
-    for (var i = 0; i < 10; i++) {
-      var randomElement = addedProduct[Math.floor(Math.random() * addedProduct.length)];
-      if (objResults[randomElement]) {
-        console.log('sdffff', objResults)
-      }
-      else {
-        console.log('bbbbbbbbbbbbb', objResults)
-      }
-    }
-    console.log(objResults)
+    const randomItem = addedProduct[Math.floor(Math.random() * addedProduct.length)];
+
+    const newCart = [randomItem];
+    setAddedProduct(newCart);
+
   }
-  choosOneBtn();
 
 
   return (
@@ -54,9 +47,9 @@ function App() {
         <div className='cart-container'>
           <h4>Selected Product</h4>
           {
-            addedProduct.map((product) => <AddedProduct product={product}></AddedProduct>)
+            addedProduct.map((product) => <AddedProduct key={product.id} product={product}></AddedProduct>)
           }
-          <button className='choos-one-btn'>Choos one</button>
+          <button className='choos-one-btn' onClick={choosOneBtn}>Choos one</button>
           <button onClick={resetBtn} className='reset-btn'>Reset</button>
         </div>
       </div>

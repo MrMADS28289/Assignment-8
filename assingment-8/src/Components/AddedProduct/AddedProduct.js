@@ -4,7 +4,7 @@ import './AddedProduct.css'
 const AddedProduct = ({ product }) => {
 
     const { img, name } = product;
-    // console.log(image)
+
     return (
         <div className='added-container'>
             <div className='product-info'>

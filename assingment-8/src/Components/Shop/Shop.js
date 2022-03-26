@@ -1,5 +1,8 @@
 import './Shop.css';
 
+import { FaCartPlus } from "@react-icons/all-files/fa/FaCartPlus";
+
+
 const Shop = ({ product, handleAddToCart }) => {
     // console.log(product)
     const { name, price, img } = product;
@@ -14,7 +17,7 @@ const Shop = ({ product, handleAddToCart }) => {
                 <p>Price: ${price}</p>
             </div>
             <button onClick={() => handleAddToCart(product)}>
-                <p>Add to cart</p>
+                <p>Add to cart <FaCartPlus></FaCartPlus></p>
             </button>
         </div>
     );

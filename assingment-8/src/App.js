@@ -17,8 +17,8 @@ function App() {
 
   const handleAddToCart = (product) => {
 
-    const addd = addedProduct.find(cartProduct => product.id === cartProduct.id);
-    if (addd) {
+    const mather = addedProduct.find(cartProduct => product.id === cartProduct.id);
+    if (mather) {
       alert('You already select this product!')
     }
     else if (addedProduct.length > 3) {

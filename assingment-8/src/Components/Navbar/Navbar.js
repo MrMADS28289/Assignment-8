@@ -6,8 +6,6 @@ const Navbar = () => {
         <nav className='navbar'>
             <h1>Under-Warld Tailers</h1>
             <div className="header">
-                {/* <a href="/shop">Shop</a>
-                <a href="/orders">Orders</a> */}
                 <a href="/about">About us</a>
             </div>
         </nav>

@@ -1,13 +1,9 @@
 import './Shop.css';
-
 import { FaCartPlus } from "@react-icons/all-files/fa/FaCartPlus";
 
-
 const Shop = ({ product, handleAddToCart }) => {
-    // console.log(product)
+
     const { name, price, img } = product;
-
-
 
     return (
         <div className='product'>

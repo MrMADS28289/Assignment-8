@@ -1,4 +1,3 @@
-
 import './AddedProduct.css'
 
 const AddedProduct = ({ product }) => {

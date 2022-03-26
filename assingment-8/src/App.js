@@ -28,7 +28,6 @@ function App() {
       const newCart = [...addedProduct, product];
       setAddedProduct(newCart);
     }
-
   };
 
   const resetBtn = () => {
@@ -46,7 +45,6 @@ function App() {
     setAddedProduct(newCart);
 
   }
-
 
   return (
     <div className="App">

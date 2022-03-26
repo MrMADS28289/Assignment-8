@@ -32,7 +32,8 @@ function App() {
             products.map(product => <Shop key={product.id} product={product} handleAddToCart={handleAddToCart}></Shop>)
           }
         </div>
-        <div>
+        <div className='cart-container'>
+          <h4>Selected Product</h4>
           {
             addedProduct.map((product) => <AddedProduct product={product}></AddedProduct>)
           }

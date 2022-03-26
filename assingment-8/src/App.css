@@ -76,3 +76,8 @@
     grid-template-columns: repeat(3, 1fr);
   }
 } 
+.cart-container{
+  background-color: rgb(235, 217, 217);
+  padding: 10px;
+  position: sticky;
+}

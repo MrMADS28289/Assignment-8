@@ -6,6 +6,14 @@
     align-items: center;
     border-radius: 25% 0 25% 0;
     box-shadow: 4px 10px 30px rgb(80, 78, 78);
-    /* position: sticky;
-    top: 170px; */
+}
+.product-info button{
+    border: none;
+    background-color: #f19191;
+    color: #eb3d3d;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.product-info button:hover{
+    color: red;
 }

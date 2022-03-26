@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import AddedProduct from './Components/AddedProduct/AddedProduct';
 import Navbar from './Components/Navbar/Navbar';
+import Qustions from './Components/Questions/Qustions';
 import Shop from './Components/Shop/Shop';
 
 function App() {
@@ -39,10 +40,16 @@ function App() {
   const choosOneBtn = () => {
 
     document.getElementById('choos-btn').style.display = 'none';
-    const randomItem = addedProduct[Math.floor(Math.random() * addedProduct.length)];
+    if (addedProduct.length === 0) {
+      document.getElementById('choos-btn').style.display = 'inline';
+      alert('Please select items after click choos one!')
+    }
+    else {
+      const randomItem = addedProduct[Math.floor(Math.random() * addedProduct.length)];
 
-    const newCart = [randomItem];
-    setAddedProduct(newCart);
+      const newCart = [randomItem];
+      setAddedProduct(newCart);
+    }
 
   }
 
@@ -64,6 +71,7 @@ function App() {
           <button onClick={resetBtn} className='reset-btn'>Reset</button>
         </div>
       </div>
+      <Qustions></Qustions>
     </div>
   );
 }
